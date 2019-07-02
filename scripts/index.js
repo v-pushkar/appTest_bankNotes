@@ -75,7 +75,6 @@ function giveMoney(mo) { // function check, is the sum is correct
         return answer();
     };
     inforow.innerText = sumisok();
-
 }
 
 function countNotes() { // counts the number of notes and save resalt to obj notesgiv
