@@ -1,0 +1,140 @@
+@import './controls.scss';
+
+$borderGry: 3px solid darkgrey;
+
+.wrapperBox {
+    border: $borderGry;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 15px auto;
+}
+
+.insertCard {
+    animation: innerCard 2s;
+    bottom: 100% !important;
+}
+
+.giveNotesAn {
+    animation: givNotes 2s;
+    bottom: 30% !important;
+}
+
+.viewswrapp {
+    width: 700px;
+    @extend .wrapperBox;
+
+    .inforow {
+        width: 100%;
+        height: 100px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 22px;
+    }
+
+    .atmscreen-wrapp {
+        @extend .wrapperBox;
+
+        .atmscreen {
+            height: 300px;
+
+            .inputdiv {
+                text-align: center;
+                font-weight: 600;
+                font-size: 22px;
+            }
+
+            .givenotes {
+                font-weight: 700;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .atmkeyboard-wrapp {
+        @extend .wrapperBox;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .atmkeyboard {
+            width: auto;
+            margin: auto;
+
+            padding: 15px;
+            border: $borderGry;
+            border-radius: 5px;
+        }
+
+        .atmcardgetter {
+            position: relative;
+            width: 200px;
+            @extend .wrapperBox;
+
+            .visacard-wrapp {
+                position: absolute;
+                overflow: hidden;
+                top: 25%;
+                left: 17.5%;
+                width: 65%;
+                height: 190px;
+
+                .visacard {
+                    background-image: url('../../img/crcard.png');
+                    background-size: cover;
+                    // @extend .wrapperBox;
+                    bottom: 0;
+                    width: 90%;
+                    height: 95%;
+                    position: absolute;
+                }
+            }
+
+        }
+    }
+
+    .atmmanigiver-wrapp {
+        position: relative;
+        @extend .wrapperBox;
+
+        .atmmanigiver {
+            .notes-wrapp {
+                position: absolute;
+                overflow: hidden;
+                top: 25%;
+                width: 100%;
+                height: 120px;
+
+                .notes {
+                    background-image: url('../../img/100.png');
+                    background-size: cover;
+                    background-position-y: bottom;
+                    // @extend .wrapperBox;
+                    bottom: 100%;
+                    width: 90%;
+                    height: 120%;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+
+@keyframes innerCard {
+    0% {
+        bottom: 0%
+    }
+
+    100% {
+        bottom: 100%
+    }
+}
+
+@keyframes givNotes {
+    0% {
+        bottom: 100%
+    }
+
+    100% {
+        bottom: 30%
+    }
+}

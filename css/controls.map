@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "controls.css",
+	"sources": [
+		"scss/controls.scss"
+	],
+	"sourcesContent": [
+		"\r\n\r\n.atmkeyboard {\r\n    .btn {\r\n        min-height: 50px;\r\n        border: 1px solid darkgray;\r\n        margin: 5px;\r\n\r\n        &.funcbtn {\r\n            width: 120px;\r\n        }\r\n\r\n        &.numerbtn {\r\n            height: 50px;\r\n            width: 50px;\r\n        }\r\n    }\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAEA,AACI,YADQ,CACR,IAAI,CAAC;EACD,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,kBAAkB;EAC1B,MAAM,EAAE,GAAG;CAUd;;;AAdL,AAMQ,YANI,CACR,IAAI,AAKC,QAAQ,CAAC;EACN,KAAK,EAAE,KAAK;CACf;;;AART,AAUQ,YAVI,CACR,IAAI,AASC,SAAS,CAAC;EACP,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;CACd"
+}

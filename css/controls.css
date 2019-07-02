@@ -1,0 +1,19 @@
+/* line 4, ../../../testWorks/Banknotes/app/css/scss/controls.scss */
+.atmkeyboard .btn {
+  min-height: 50px;
+  border: 1px solid darkgray;
+  margin: 5px;
+}
+
+/* line 9, ../../../testWorks/Banknotes/app/css/scss/controls.scss */
+.atmkeyboard .btn.funcbtn {
+  width: 120px;
+}
+
+/* line 13, ../../../testWorks/Banknotes/app/css/scss/controls.scss */
+.atmkeyboard .btn.numerbtn {
+  height: 50px;
+  width: 50px;
+}
+
+/*# sourceMappingURL=controls.css.map */

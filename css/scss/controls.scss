@@ -1,0 +1,18 @@
+
+
+.atmkeyboard {
+    .btn {
+        min-height: 50px;
+        border: 1px solid darkgray;
+        margin: 5px;
+
+        &.funcbtn {
+            width: 120px;
+        }
+
+        &.numerbtn {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

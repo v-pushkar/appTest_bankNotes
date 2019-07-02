@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <title>Test work</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <div class="bankomat">
+        <div class="row">
+            <div class="container">
+                <div class="viewswrapp">
+                    <div class="atmscreen-wrapp">
+                        <div class="atmscreen">
+                            <div data-name='inforow' class="inforow">Pleas, insert the card</div>
+                            <!-- <input data-name="inputnumb" type="number" /> -->
+                            <div class="inputdiv" data-name="inputdiv" data-value="0"></div>
+                            <div class="givenotes" data-name="givenotes"></div>
+                        </div>
+                    </div>
+                    <div class="atmkeyboard-wrapp">
+                        <div class="atmkeyboard">
+                            <div class="keysrow row">
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="1">1</button>
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="2">2</button>
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="3">3</button>
+                                <button type="button" class="btn btn-lg btn-danger funcbtn" disabled
+                                    data-name="0">cancel</button>
+                            </div>
+                            <div class="keysrow row">
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="4">4</button>
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="5">5</button>
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="6">6</button>
+                                <button type="button" class="btn btn-lg btn-warning funcbtn" data-value="back"
+                                    data-role="back">back</button>
+                            </div>
+                            <div class="keysrow row">
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="7">7</button>
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="8">8</button>
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="9">9</button>
+                                <button type="button" class="btn btn-lg btn-success funcbtn"
+                                    data-role="enter">enter</button>
+                            </div>
+                            <div class="keysrow row">
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="-">-</button>
+                                <button type="button" class="btn btn-lg btn-light numerbtn" data-role="inputnum"
+                                    data-value="0">0</button>
+                                <button type="button" class="btn btn-lg btn-light numerbtn" disabled
+                                    data-value="0"></button>
+                                <button type="button" class="btn btn-lg btn-light funcbtn" disabled
+                                    data-value="0"></button>
+                            </div>
+                        </div>
+                        <div class="atmcardgeter-wrapp">
+                            <div class="atmcardgetter">
+                                <div class="visacard-wrapp">
+                                    <div class="visacard">
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="atmmanigiver-wrapp">
+                        <div class="atmmanigiver">
+                            <div class="notes-wrapp">
+                                <div class="notes"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div></div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
