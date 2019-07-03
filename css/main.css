@@ -102,7 +102,7 @@
 
 /* line 81, ../../../testWorks/Banknotes/app/css/scss/main.scss */
 .viewswrapp .atmkeyboard-wrapp .atmcardgetter .visacard-wrapp .visacard {
-  background-image: url("../../img/crcard.png");
+  background-image: url("../img/crcard.png");
   background-size: cover;
   bottom: 0;
   width: 90%;
@@ -126,7 +126,7 @@
 
 /* line 107, ../../../testWorks/Banknotes/app/css/scss/main.scss */
 .viewswrapp .atmmanigiver-wrapp .atmmanigiver .notes-wrapp .notes {
-  background-image: url("../../img/100.png");
+  background-image: url("../img/100.png");
   background-size: cover;
   background-position-y: bottom;
   bottom: 100%;
